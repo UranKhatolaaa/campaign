@@ -5,7 +5,7 @@ import pyqrcode
 from pyqrcode import QRCode
 from PIL import Image
 
-st.title('The Source Church QR Code Generator App')
+st.title('Campaign QR code')
 
 url = st.sidebar.text_input("URL", value="", placeholder="Paste URL Here")
 source = slugify(st.sidebar.text_input("Source", value="", placeholder="Ex: Flyer, Door Hanger, Email Campaing"))
